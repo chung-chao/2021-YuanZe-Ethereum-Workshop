@@ -26,7 +26,7 @@ contract YZT is IERC20 {
     bool recorded = false;
     
     /* [address] owner of this contract */
-    address owner;
+    address public owner;
     
     /* [struct] definition of transfer log */
     struct TransferLog {
